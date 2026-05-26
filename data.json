@@ -1,0 +1,35 @@
+{
+  "vaga": {
+    "entrada":       "1º/07/2026",
+    "entrada_longa": "1º de julho de 2026"
+  },
+
+  "local": {
+    "quadra_bloco": "SQN 312, Bloco H",
+    "cidade":       "Asa Norte, Brasília"
+  },
+
+  "contato": {
+    "nome":      "Gustavo Patrão",
+    "whatsapp":  "https://wa.me/5521998904599"
+  },
+
+  "custos": {
+    "aluguel":          "R$ 1.500,00",
+    "condominio":       "R$ 216,66",
+    "condominio_nota":  "Total R$ 650,00 ÷ 3 moradores",
+    "internet":         "R$ 10,00",
+    "variavel_nota":    "Divididas entre os 3 moradores",
+    "total_fixo":       "R$ 1.726,66",
+    "total_nota":       "+ água e energia conforme consumo"
+  },
+
+  "caucao": {
+    "valor":      "R$ 4.500,00",
+    "descricao":  "3x o aluguel da vaga"
+  },
+
+  "cards": {
+    "mensal_curto": "R$ 1.726,66 + consumo"
+  }
+}
