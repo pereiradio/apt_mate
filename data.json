@@ -31,5 +31,13 @@
 
   "cards": {
     "mensal_curto": "R$ 1.726,66 + consumo"
+  },
+
+  "fotos": {
+    "hero":        "",
+    "localizacao": "",
+    "apartamento": ["", "", "", ""],
+    "quarto":      ["", ""],
+    "academia":    ["", ""]
   }
 }

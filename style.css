@@ -203,6 +203,26 @@ strong { font-weight: 600; }
 .img-placeholder--tall { min-height: 280px; }
 .img-placeholder img { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; }
 
+/* ─── Fotos reais (substituem placeholders via JS) ───────────────────────── */
+.foto-real {
+  width: 100%;
+  display: block;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+}
+
+/* Fotos em grade e empilhadas ficam com proporção uniforme */
+.photo-grid .foto-real,
+.photo-stack .foto-real {
+  aspect-ratio: 4 / 3;
+}
+
+/* Foto da localização (única, mais alta) */
+.two-col-media > .foto-real {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+}
+
 /* ─── Sections ───────────────────────────────────────────────────────────── */
 .section { padding: var(--section-gap) 0; }
 .section--light { background: var(--color-bg-alt); }

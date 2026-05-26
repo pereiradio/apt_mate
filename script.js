@@ -8,7 +8,17 @@ function getPath(obj, path) {
   return path.split('.').reduce((o, k) => o?.[k], obj);
 }
 
+function renderFoto(placeholder, src) {
+  const img = document.createElement('img');
+  img.src = src;
+  img.alt = placeholder.getAttribute('aria-label') || '';
+  img.loading = 'lazy';
+  img.className = 'foto-real';
+  placeholder.replaceWith(img);
+}
+
 function bindData(data) {
+  // texto e links
   document.querySelectorAll('[data-val]').forEach(el => {
     const val = getPath(data, el.dataset.val);
     if (val != null) el.textContent = val;
@@ -16,6 +26,18 @@ function bindData(data) {
   document.querySelectorAll('[data-href]').forEach(el => {
     const val = getPath(data, el.dataset.href);
     if (val != null) el.href = val;
+  });
+
+  // fotos: data-foto em placeholder (string) ou container (array)
+  document.querySelectorAll('[data-foto]').forEach(el => {
+    const val = getPath(data, el.dataset.foto);
+    if (!val) return;
+    if (typeof val === 'string') {
+      renderFoto(el, val);
+    } else if (Array.isArray(val)) {
+      const slots = [...el.querySelectorAll('.img-placeholder')];
+      val.forEach((src, i) => { if (src && slots[i]) renderFoto(slots[i], src); });
+    }
   });
 }
 
