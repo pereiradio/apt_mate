@@ -39,10 +39,10 @@
   },
 
   "fotos": {
-    "hero":        "",
-    "localizacao": "",
-    "apartamento": ["", "", "", ""],
-    "quarto":      ["", ""],
-    "academia":    ["", ""]
+    "hero":        "assets/hero-sala.webp",
+    "localizacao": "assets/localizacao.webp",
+    "apartamento": ["assets/sala-01.webp", "assets/area-servico-01.webp", "assets/banheiro-social-01.webp"],
+    "quarto":      ["assets/quarto-01.webp", "assets/quarto-02.webp"],
+    "academia":    ["assets/academia-01.webp", "assets/academia-02.webp"]
   }
 }
