@@ -251,8 +251,25 @@ strong { font-weight: 600; }
 /* ─── Custos ─────────────────────────────────────────────────────────────── */
 .cost-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: .75rem; margin: 1.5rem 0 1rem; }
 
-/* Card que ocupa as 2 colunas (IPTU, água) */
+/* Card que ocupa as 2 colunas */
 .cost-card--full { grid-column: 1 / -1; }
+
+/* Bloco de custo sazonal/temporário */
+.cost-sazonal {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px dashed var(--color-border);
+}
+
+.cost-sazonal-label {
+  display: block;
+  font-size: .72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: var(--color-text-muted);
+  margin-bottom: .6rem;
+}
 
 .cost-card {
   display: flex;
