@@ -19,18 +19,23 @@
     "condominio":       "R$ 216,66",
     "condominio_nota":  "Total R$ 650,00 ÷ 3 moradores",
     "internet":         "R$ 10,00",
+    "faxineira":        "R$ 66,67",
+    "faxineira_nota":   "R$ 200,00 quinzenal ÷ 3 moradores",
+    "iptu":             "R$ 92,67",
+    "iptu_nota":        "6 parcelas de R$ 278,00 ÷ 3 • 4 restantes na entrada",
     "variavel_nota":    "Divididas entre os 3 moradores",
-    "total_fixo":       "R$ 1.726,66",
+    "total_fixo":       "R$ 1.793,33",
     "total_nota":       "+ água e energia conforme consumo"
   },
 
   "caucao": {
-    "valor":      "R$ 4.500,00",
-    "descricao":  "3x o aluguel da vaga"
+    "valor":      "R$ 4.700,00",
+    "descricao":  "parte do morador anterior na caução vinculada ao contrato"
   },
 
   "cards": {
-    "mensal_curto": "R$ 1.726,66 + consumo"
+    "mensal_curto":   "R$ 1.793,33 + consumo",
+    "aluguel_cond":   "R$ 1.716,66"
   },
 
   "fotos": {
