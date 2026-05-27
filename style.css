@@ -217,10 +217,10 @@ strong { font-weight: 600; }
   aspect-ratio: 4 / 3;
 }
 
-/* Foto da localização (única, mais alta) */
+/* Foto da localização (retângulo horizontal) */
 .two-col-media > .foto-real {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 4 / 3;
 }
 
 /* ─── Sections ───────────────────────────────────────────────────────────── */
@@ -235,7 +235,6 @@ strong { font-weight: 600; }
 .two-col--reverse .two-col-media { order: 1; }
 
 .photo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
-.photo-grid > *:nth-child(odd):last-child { grid-column: 1 / -1; }
 .photo-stack { display: flex; flex-direction: column; gap: .75rem; }
 
 /* Feature list */
