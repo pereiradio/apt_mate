@@ -34,7 +34,8 @@
   },
 
   "cards": {
-    "mensal_curto": "R$ 1.793,33 + consumo"
+    "mensal_curto":   "R$ 1.793,33 + consumo",
+    "aluguel_cond":   "R$ 1.716,66"
   },
 
   "fotos": {
