@@ -90,10 +90,9 @@
     <!-- A IDEIA DA VAGA -->
     <section class="section section--light" id="ideia">
       <div class="container section-narrow">
-        <h2 class="section-title">A ideia da vaga</h2>
-        <p>Um dos moradores vai sair, e estamos procurando alguém para ocupar o quarto mantendo uma convivência tranquila.</p>
-        <p>Não é um apartamento começando do zero. A casa já está equipada, os espaços comuns já estão em uso e a rotina geral já está organizada.</p>
-        <p>A ideia é encontrar alguém que queira entrar em um apê compartilhado com o básico já resolvido: morar bem, dividir as contas com clareza e conviver sem complicar o cotidiano.</p>
+        <h2 class="section-title">A vaga</h2>
+        <p>Um dos moradores irá retornar para o estado de origem. A vaga é para dividir o apartamento com os outros dois moradores — ambos servidores públicos do INCRA.</p>
+        <p>Estamos em busca de alguém tranquilo, que queira entrar em um apê compartilhado com o básico já resolvido: morar bem, dividir as contas com clareza e conviver sem complicar o cotidiano.</p>
       </div>
     </section>
 
@@ -141,8 +140,15 @@
           <div class="two-col-text">
             <h2 class="section-title">O quarto</h2>
             <p>O quarto disponível não é mobiliado.</p>
-            <p>Há possibilidade de combinar a compra de alguns itens diretamente com o morador anterior, caso haja interesse, já que ele pretende vender parte da mobília.</p>
-            <p>A entrada poderá ser feita a partir de <strong data-val="vaga.entrada_longa">1º de julho de 2026</strong>.</p>
+            <p>O morador que está saindo pretende vender alguns itens — quem tiver interesse pode combinar diretamente com ele:</p>
+            <ul class="feature-list feature-list--venda">
+              <li>Ventilador</li>
+              <li>Escrivaninha</li>
+              <li>Mesa de cabeceira</li>
+              <li>Armário</li>
+              <li>Base de cama</li>
+            </ul>
+            <p class="quarto-entrada">A entrada poderá ser feita a partir de <strong data-val="vaga.entrada_longa">1º de julho de 2026</strong>.</p>
           </div>
           <div class="two-col-media">
             <div class="photo-stack" data-foto="fotos.quarto">
@@ -163,10 +169,10 @@
       <div class="container">
         <div class="two-col">
           <div class="two-col-text">
-            <h2 class="section-title">Asa Norte com vida prática</h2>
-            <p>O apartamento fica na <strong data-val="local.quadra_bloco">SQN 312, Bloco H</strong>, na Asa Norte.</p>
-            <p>Tem um Carrefour Bairro bem ao lado, o que ajuda muito nas compras pequenas do dia a dia. Também há farmácias, padaria e outros serviços próximos.</p>
-            <p>O prédio conta com <strong>portaria 24h</strong>, o que traz mais segurança e facilita a rotina — especialmente para quem recebe encomendas e compras online com frequência.</p>
+            <h2 class="section-title">📍 Asa Norte com vida prática</h2>
+            <p>O apartamento fica na <strong data-val="local.quadra_bloco">SQN 312, Bloco H</strong>, na Asa Norte — ao lado da W3, o que facilita bastante o acesso ao transporte público. A poucos minutos da UnB, da Esplanada dos Ministérios e do centro da cidade.</p>
+            <p>🛒 Tem um Carrefour Bairro <strong>24h</strong> bem ao lado, ótimo para as compras do dia a dia. E a menos de dez minutos a pé tem o Bellavia Asanorte, com preços mais em conta para o rancho do mês.</p>
+            <p>O prédio conta com <strong>portaria 24h</strong>, o que traz mais segurança e facilita a rotina — especialmente para quem recebe encomendas e compras online com frequência. 📦</p>
             <p class="text-muted text-sm">O número do apartamento e os detalhes para visita são informados apenas em conversa privada.</p>
           </div>
           <div class="two-col-media">
@@ -183,7 +189,7 @@
       <div class="container">
         <div class="two-col two-col--reverse">
           <div class="two-col-text">
-            <h2 class="section-title">Um bônus do prédio</h2>
+            <h2 class="section-title">🏋️ Um bônus do prédio</h2>
             <p>A academia é de uso exclusivo dos moradores, funciona das <strong>6h às 22h</strong>, é bem equipada e costuma ficar quase sempre vazia.</p>
             <p>Para quem treina, é uma vantagem real: resolve perto de casa, sem mensalidade extra e sem depender de deslocamento.</p>
           </div>
@@ -221,6 +227,16 @@
             <span class="cost-value" data-val="custos.internet">R$&nbsp;10,00</span>
           </div>
           <div class="cost-card">
+            <span class="cost-label">Faxineira</span>
+            <span class="cost-value" data-val="custos.faxineira">R$&nbsp;66,67</span>
+            <span class="cost-note" data-val="custos.faxineira_nota">R$ 200,00 quinzenal ÷ 3 moradores</span>
+          </div>
+          <div class="cost-card cost-card--full">
+            <span class="cost-label">IPTU</span>
+            <span class="cost-value" data-val="custos.iptu">R$&nbsp;92,67</span>
+            <span class="cost-note" data-val="custos.iptu_nota">6 parcelas de R$ 278,00 ÷ 3 • 4 restantes na entrada</span>
+          </div>
+          <div class="cost-card cost-card--full">
             <span class="cost-label">Água e energia</span>
             <span class="cost-value">Conforme consumo</span>
             <span class="cost-note" data-val="custos.variavel_nota">Divididas entre os 3 moradores</span>
@@ -244,8 +260,8 @@
           </div>
           <div class="caucao-content">
             <p>Além dos custos mensais, há o repasse da caução ao morador que está saindo.</p>
-            <p>O valor é de <strong data-val="caucao.valor">R$&nbsp;4.500,00</strong>, correspondente a <span data-val="caucao.descricao">3x o aluguel da vaga</span>.</p>
-            <p>Esse valor não é taxa. É o reembolso da parte do morador anterior na caução já vinculada ao contrato de locação. Os detalhes são formalizados em instrumento interno entre os moradores.</p>
+            <p>O valor é de <strong data-val="caucao.valor">R$&nbsp;4.700,00</strong> — referente à <span data-val="caucao.descricao">parte do morador anterior na caução vinculada ao contrato</span>.</p>
+            <p>Esse valor não é taxa. É o reembolso da participação do morador que está saindo na caução já depositada. Os detalhes são formalizados em instrumento interno entre os moradores.</p>
           </div>
         </div>
       </div>
