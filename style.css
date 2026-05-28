@@ -235,6 +235,8 @@ strong { font-weight: 600; }
 .two-col--reverse .two-col-media { order: 1; }
 
 .photo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
+.photo-grid .img-placeholder,
+.photo-grid .foto-real { min-height: 280px; }
 .photo-stack { display: flex; flex-direction: column; gap: .75rem; }
 
 /* Feature list */
