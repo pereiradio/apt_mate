@@ -166,6 +166,16 @@ strong { font-weight: 600; }
 .hero-title { color: var(--color-accent); margin-bottom: .25rem; }
 .hero-subtitle { font-size: 1.05rem; color: var(--color-text); margin-bottom: 0; }
 .hero-perfil { font-size: .925rem; color: var(--color-text-muted); margin-bottom: 0; }
+.hero-footnote {
+  font-size: .8rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0;
+}
+.hero-footnote a {
+  color: var(--color-accent-mid);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 .hero-image { width: 100%; }
 
 /* Quick cards */
