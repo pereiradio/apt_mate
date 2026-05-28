@@ -341,6 +341,26 @@ strong { font-weight: 600; }
   margin-top: .15rem;
 }
 
+.caucao-aside {
+  position: relative;
+  background: var(--color-bg-accent);
+  border-radius: var(--radius-md);
+  padding: 1.1rem 1.4rem;
+  margin-top: 1.25rem;
+  font-size: .9rem;
+  color: var(--color-text);
+}
+.caucao-aside::before {
+  content: '';
+  position: absolute;
+  top: -9px;
+  left: 2rem;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid var(--color-bg-accent);
+}
+.caucao-aside p { margin-bottom: 0; font-size: inherit; }
+
 /* ─── Tags (perfil) ──────────────────────────────────────────────────────── */
 .tags { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.25rem; }
 .tag { display: inline-block; padding: .35rem .9rem; border-radius: 100px; font-size: .8rem; font-weight: 600; background: var(--color-tag-bg); color: var(--color-tag-text); }
